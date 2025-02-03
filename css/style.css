@@ -7,36 +7,59 @@
     box-sizing: border-box;
 }
 
+/* sect caracter */
+
+body {
+    font-family: "Roboto Slab", serif;
+}
+
+/* container  */
+
 .container {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
 
     /* debug */
 
-    border: 1px solid red;
-    min-height: 900px;
+    /* border: 1px solid red;
+    min-height: 900px; */
 }
 
-p {
-    text-align: center;
-}
+/* h2 setting */
 
 h2 {
     text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(230, 58, 164);
+    padding: 40px;
+    margin-bottom: 15px;
 }
+
+/* p setting */
+
+p {
+    text-align: center;
+    padding: 0 20px;
+    font-size: 16px;
+}
+
+/* table setting */
 
 .row {
     display: flex;
-    margin-top: 10px;
+    margin-top: 30px;
     flex-wrap: wrap;
     color: white;
+    justify-content: center;
 }
 
 .col  {
    width: calc(100% / 3);
    display: flex;   
    max-height: 150px;
-   padding: 10px 50px;
+   padding: 25px 20px;
+   min-width: 390px;
 
 }
 
@@ -49,6 +72,22 @@ h2 {
     flex-direction: column;
     justify-content: space-around;
     background-color: black;
-    padding: 10px;
+    padding: 10px 25px;
     width: 100%;
 }
+
+/* h3 setting */
+
+h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* a email setting */
+
+a {
+    text-decoration: none;
+    color: rgb(37, 177, 219);
+}
+
+
